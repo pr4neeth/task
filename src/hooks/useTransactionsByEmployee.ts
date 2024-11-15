@@ -13,7 +13,7 @@ export function useTransactionsByEmployee(): TransactionsByEmployeeResult {
         "transactionsByEmployee",
         {
           employeeId,
-        }
+        },
       )
 
       setTransactionsByEmployee(data)
